@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" href="index.css">
   <title>Stephen Schab</title>
@@ -12,53 +13,57 @@
 
   <nav class="navbar">
     <div class="portfolio-name">Stephen Schab</div>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
     <div class="navbar-links">
       <ul>
-        <li><a href="#">Bio</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </div>
   </nav>
 
-  <h1 class="headline">"Headline"</h1>
-
-  <h2 id="bio" class="section-title">Bio</h2>
-  <div class="bio-container">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde illo aliquid quasi ullam voluptates. Modi, at eligendi nesciunt ipsa accusantium dolores nihil inventore unde vero, non eaque quam commodi perferendis</p>
+  <div class="headline-container">
+    <h1 class="headline">Hi! My name's Stephen, I'm a fullstack engineer and solving problems is my passion.</h1>
   </div>
 
+  <section class="bio-section">
+    <h2 id="bio" class="section-title">Bio</h2>
+    
+    <div class="bio-container">
+      <p>I live my life by the motto: "Stagnation is death". If you're not growing and becoming better then what's the point? This is one of the reasons I was drawn to a career in coding. Development is an ever evolving field and in order to keep up you are constantly learning new things. I also love solving problems, it lead me into the Customer Service roles that I have worked previously. There is no better feeling than solving a problem that you have been working on. The rush when a component works exactly as intended is riveting. When I'm not geeking out on projects I'm working on I can be found in nature either relaxing in my hammock or hiking with my dog.</p>
+    </div>
+  </section>
+
+  <section class="project-section">
   <h2 id="projects" class="section-title">Projects</h2>
 
   <div class="project-container">
-    <div class="screenshot"></div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quod! Eos veniam aliquid architecto commodi suscipit possimus, necessitatibus quas non id, eligendi nostrum itaque dolorum quasi? Eum nemo quaerat et.</p>
+    <img class="screenshot" src="./images\QuizAppComp.png" />
+    <p>A quiz app where users are able to move through each question receiving feedback on the current question, their score, whether they answered correctly and if incorrect they are provided the correct answer. When users finish the quiz they are able to start over.</p>
+    <p>Tech Stack: HTML, CSS, JS, jQuery</p>
     <div class="links-container">
-      <a href="#">Site</a>
-      <a href="#">Repo</a>
+      <a href="https://thinkful-ei-iguana.github.io/Stephen-Pingyu-QuizApp" target="_blank">Site</a>
+      <a href="https://github.com/thinkful-ei-iguana/Stephen-Pingyu-QuizApp" target="_blank">Repo</a>
     </div>
   </div>
 
   <div class="project-container">
-    <div class="screenshot"></div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, quod! Eos veniam aliquid architecto commodi suscipit possimus, necessitatibus quas non id, eligendi nostrum itaque dolorum quasi? Eum nemo quaerat et.</p>
+    <img class="screenshot" src="./images\BookmarkScreenshotComp.jpg" />
+    <p>Marki-it! is a bookmark app that let's users create a bookmark with a title, web address, rating, and description. The bookmark is then stored in an API. The bookmarks are listed on the page and can be expanded to show the description and a link to the site. The user is able to sort the bookmakrs by a minimum rating. Finally the user is able to delete the bookmark.</p>
+    <p>Tech Stack: HTML, CSS, JS, jQuery, AJAX</p>
     <div class="links-container">
-      <a href="#">Site</a>
-      <a href="#">Repo</a>
+      <a href="https://thinkful-ei-iguana.github.io/stephen-bookmarks-app/">Site</a>
+      <a href="https://github.com/thinkful-ei-iguana/stephen-bookmarks-app">Repo</a>
     </div>
   </div>
+</section>
 
   <footer id="contact" class="contact-container">
     <h2 class="contact-title">Contact Info</h2>
     <p>Email: sschab689@gmail.com</p>
     <div class="contact-links">
-      <a href="#">Github</a>
-      <a href="#">LinkedIn</a>
+      <a href="https://github.com/stephenschab">Github</a>
+      <a href="https://www.linkedin.com/in/stephen-schab/">LinkedIn</a>
     </div>
   </footer>
 
